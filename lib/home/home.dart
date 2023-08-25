@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:teste_touch_screen/evolu%C3%A7%C3%A3o_fisica/evo_fisica.dart';
 import 'package:teste_touch_screen/login/login.dart';
-
 import '../Sobre_monitamento/monitoramento.dart';
+import '../evolução_financeira/evo_financeira.dart';
 
 
 class MyHomePage extends StatefulWidget {
@@ -66,17 +66,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-
-class ThirdPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text("Third Page"),
-      ),
-    );
-  }
-}
 
 class FourthPage extends StatelessWidget {
   const FourthPage({Key? key}) : super(key: key);
